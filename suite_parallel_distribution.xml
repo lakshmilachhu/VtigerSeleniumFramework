@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Suite">
+  <test name="TestRunner-1">
+    <classes>
+      <class name="com.vTiger.crm.testNgTest.TC004_Create_and_Delete_OrganizationTest"/>
+    </classes>
+  </test> 
+  
+  <test name="TestRunner-2">
+    <classes>
+      <class name="com.vTiger.crm.testNgTest.TC002_CreatingContactsBySelectingOrganizationTest"/>
+    </classes>
+  </test> 
+  
+  <test name="TestRunner-3">
+    <classes>
+      <class name="com.vTiger.crm.testNgTest.TC003_CreateContactafterDeleteContactTest"/>
+      <class name="com.vTiger.crm.testNgTest.TC001_CreateContactsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

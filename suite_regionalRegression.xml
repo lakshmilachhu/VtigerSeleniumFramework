@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.vTiger.crm.testNgTest.TC004_Create_and_Delete_OrganizationTest">
+      	<methods>
+      		<include name="createOrgandDelete"/>
+      	</methods>
+      </class>
+      <class name="com.vTiger.crm.testNgTest.TC002_CreatingContactsBySelectingOrganizationTest">
+      	<methods>
+      		<exclude name="createContactWithOrg"/>
+      	</methods>
+      </class>
+      <class name="com.vTiger.crm.testNgTest.TC003_CreateContactafterDeleteContactTest">
+      	<methods>
+      		<exclude name="createContactAndDelete"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

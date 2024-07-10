@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T17:49:07 IST" name="Suite" finished-at="2024-06-20T17:50:31 IST" duration-ms="84010">
+    <groups>
+      <group name="Regression">
+        <method signature="TC006_CreateLead_After_DeleteLeadTest.createLead_and_Delete()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@2657d4dd]" name="createLead_and_Delete" class="com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest"/>
+        <method signature="TC006_CreateLead_After_DeleteLeadTest.createLead_and_Delete()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@642a7222]" name="createLead_and_Delete" class="com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC005_CreateLeadTest.createLead()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@210ab13f]" name="createLead" class="com.vTiger.crm.testNgTest.TC005_CreateLeadTest"/>
+        <method signature="TC007_CreateOpportunityTest.createOpportunity()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@5340477f]" name="createOpportunity" class="com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest"/>
+        <method signature="TC005_CreateLeadTest.createLead()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" name="createLead" class="com.vTiger.crm.testNgTest.TC005_CreateLeadTest"/>
+        <method signature="TC007_CreateOpportunityTest.createOpportunity()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@7d322cad]" name="createOpportunity" class="com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-20T17:49:07 IST" name="TestRunner-2" finished-at="2024-06-20T17:50:14 IST" duration-ms="66597">
+      <class name="com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@642a7222]" started-at="2024-06-20T17:49:30 IST" name="BeforeClass" finished-at="2024-06-20T17:49:36 IST" duration-ms="5536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@642a7222]" started-at="2024-06-20T17:49:36 IST" name="BeforeMethod" finished-at="2024-06-20T17:49:42 IST" duration-ms="6246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="createLead_and_Delete()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@642a7222]" started-at="2024-06-20T17:49:42 IST" name="createLead_and_Delete" finished-at="2024-06-20T17:49:42 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.report" is null
+at listenerImplementation.ListenImplement.onTestStart(ListenImplement.java:84)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:625)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead_and_Delete -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@642a7222]" started-at="2024-06-20T17:49:42 IST" name="AfterMethod" finished-at="2024-06-20T17:49:49 IST" duration-ms="6924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@642a7222]" started-at="2024-06-20T17:49:49 IST" name="AfterClass" finished-at="2024-06-20T17:49:52 IST" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest -->
+      <class name="com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@7d322cad]" started-at="2024-06-20T17:49:52 IST" name="BeforeClass" finished-at="2024-06-20T17:49:58 IST" duration-ms="5577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@7d322cad]" started-at="2024-06-20T17:49:58 IST" name="BeforeMethod" finished-at="2024-06-20T17:50:05 IST" duration-ms="6977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="createOpportunity()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@7d322cad]" started-at="2024-06-20T17:50:05 IST" name="createOpportunity" finished-at="2024-06-20T17:50:05 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.report" is null
+at listenerImplementation.ListenImplement.onTestStart(ListenImplement.java:84)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:625)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunity -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@7d322cad]" started-at="2024-06-20T17:50:05 IST" name="AfterMethod" finished-at="2024-06-20T17:50:11 IST" duration-ms="6465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@7d322cad]" started-at="2024-06-20T17:50:11 IST" name="AfterClass" finished-at="2024-06-20T17:50:14 IST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest -->
+      <class name="com.vTiger.crm.testNgTest.TC005_CreateLeadTest">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" started-at="2024-06-20T17:49:07 IST" name="BeforeSuite" finished-at="2024-06-20T17:49:07 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" started-at="2024-06-20T17:49:07 IST" name="BeforeClass" finished-at="2024-06-20T17:49:13 IST" duration-ms="6448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" started-at="2024-06-20T17:49:13 IST" name="BeforeMethod" finished-at="2024-06-20T17:49:21 IST" duration-ms="7260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="createLead()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" started-at="2024-06-20T17:49:21 IST" name="createLead" finished-at="2024-06-20T17:49:21 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String)" because "this.report" is null
+at listenerImplementation.ListenImplement.onTestStart(ListenImplement.java:84)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:625)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" started-at="2024-06-20T17:49:21 IST" name="AfterMethod" finished-at="2024-06-20T17:49:28 IST" duration-ms="6788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" started-at="2024-06-20T17:49:28 IST" name="AfterClass" finished-at="2024-06-20T17:49:30 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@311bf055]" started-at="2024-06-20T17:50:31 IST" name="AfterSuite" finished-at="2024-06-20T17:50:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.vTiger.crm.testNgTest.TC005_CreateLeadTest -->
+    </test> <!-- TestRunner-2 -->
+    <test started-at="2024-06-20T17:49:07 IST" name="TestRunner-1" finished-at="2024-06-20T17:50:31 IST" duration-ms="84010">
+      <class name="com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@2657d4dd]" started-at="2024-06-20T17:49:39 IST" name="BeforeClass" finished-at="2024-06-20T17:49:44 IST" duration-ms="5114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@2657d4dd]" started-at="2024-06-20T17:49:44 IST" name="BeforeMethod" finished-at="2024-06-20T17:49:51 IST" duration-ms="6926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="createLead_and_Delete()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@2657d4dd]" started-at="2024-06-20T17:49:51 IST" name="createLead_and_Delete" finished-at="2024-06-20T17:49:58 IST" duration-ms="6923" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Leads] but found [Home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Leads] but found [Home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest.createLead_and_Delete(TC006_CreateLead_After_DeleteLeadTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead_and_Delete -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@2657d4dd]" started-at="2024-06-20T17:49:58 IST" name="AfterMethod" finished-at="2024-06-20T17:50:04 IST" duration-ms="5913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest@2657d4dd]" started-at="2024-06-20T17:50:04 IST" name="AfterClass" finished-at="2024-06-20T17:50:08 IST" duration-ms="4559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.vTiger.crm.testNgTest.TC006_CreateLead_After_DeleteLeadTest -->
+      <class name="com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@5340477f]" started-at="2024-06-20T17:50:08 IST" name="BeforeClass" finished-at="2024-06-20T17:50:13 IST" duration-ms="4927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@5340477f]" started-at="2024-06-20T17:50:13 IST" name="BeforeMethod" finished-at="2024-06-20T17:50:18 IST" duration-ms="4932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="createOpportunity()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@5340477f]" started-at="2024-06-20T17:50:18 IST" name="createOpportunity" finished-at="2024-06-20T17:50:25 IST" duration-ms="6450" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Contacts] but found [Home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Contacts] but found [Home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest.createOpportunity(TC007_CreateOpportunityTest.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunity -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@5340477f]" started-at="2024-06-20T17:50:25 IST" name="AfterMethod" finished-at="2024-06-20T17:50:27 IST" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest@5340477f]" started-at="2024-06-20T17:50:27 IST" name="AfterClass" finished-at="2024-06-20T17:50:31 IST" duration-ms="3580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.vTiger.crm.testNgTest.TC007_CreateOpportunityTest -->
+      <class name="com.vTiger.crm.testNgTest.TC005_CreateLeadTest">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String)[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@210ab13f]" started-at="2024-06-20T17:49:07 IST" name="BeforeClass" finished-at="2024-06-20T17:49:13 IST" duration-ms="6133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@210ab13f]" started-at="2024-06-20T17:49:13 IST" name="BeforeMethod" finished-at="2024-06-20T17:49:21 IST" duration-ms="7629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="createLead()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@210ab13f]" started-at="2024-06-20T17:49:21 IST" name="createLead" finished-at="2024-06-20T17:49:31 IST" duration-ms="10225" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Leads] but found [Home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Leads] but found [Home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.vTiger.crm.testNgTest.TC005_CreateLeadTest.createLead(TC005_CreateLeadTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@210ab13f]" started-at="2024-06-20T17:49:31 IST" name="AfterMethod" finished-at="2024-06-20T17:49:35 IST" duration-ms="3719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.vTiger.crm.testNgTest.TC005_CreateLeadTest@210ab13f]" started-at="2024-06-20T17:49:35 IST" name="AfterClass" finished-at="2024-06-20T17:49:39 IST" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.vTiger.crm.testNgTest.TC005_CreateLeadTest -->
+    </test> <!-- TestRunner-1 -->
+  </suite> <!-- Suite -->
+</testng-results>
