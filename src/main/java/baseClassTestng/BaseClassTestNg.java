@@ -25,6 +25,8 @@ public class BaseClassTestNg
 {
 	protected WebDriver driver;
 //line added
+	//master
+	//child
 	//creating instances for utilities
 	protected PropertyFileUtility propertyLib=new PropertyFileUtility();
 	protected ExcelUtility excelLib=new ExcelUtility();
