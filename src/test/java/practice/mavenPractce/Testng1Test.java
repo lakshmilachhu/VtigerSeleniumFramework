@@ -3,7 +3,7 @@ package practice.mavenPractce;
 import org.testng.annotations.Test;
 
 public class Testng1Test {
-	
+	//c2
 	//c1
 	@Test
 	public void test1() {
