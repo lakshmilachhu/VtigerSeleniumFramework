@@ -25,6 +25,7 @@ public class BaseClassTestNg
 {
 	protected WebDriver driver;
 //line added
+	//jenkins
 	//master
 	//child
 	//creating instances for utilities
