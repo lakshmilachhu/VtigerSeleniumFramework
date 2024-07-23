@@ -1,0 +1,34 @@
+Pipeline {
+agent any
+stages {
+stage('Build') {
+steps { 
+echo 'Building'
+sh 'mvn clean install'
+}
+}
+stages('Test') {
+steps {
+echo 'Testing'
+sh 'mvn test'
+}
+}
+stages('Deploy') {
+steps {
+echo 'Deploying'
+sh 'mvn deploy'
+}
+}
+post { 
+success {
+echo 'pipeline succeeded!'
+}
+failure {
+echo 'pipeline failured!'
+}
+always {
+echo 'pipeline completed!'
+}
+}
+}
+}
